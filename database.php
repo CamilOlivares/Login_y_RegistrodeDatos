@@ -1,7 +1,7 @@
 <?php
 // Configuración para la conexión a la base de datos
 $server = "localhost"; 
-$username = "root";
+$username = "root"; //Es un usuario con privilegios elevados en un sistema, en este caso para el ejercicio.
 $password = ""; // Se deja en blanco si no hay contraseña
 $database = "tareasemana7_database";
 
