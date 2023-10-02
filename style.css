@@ -1,0 +1,85 @@
+/* Estilos para el cuerpo de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Altura del 80% del viewport height */
+    margin: 20px 0; /* Margen superior e inferior de 20px, margen izquierdo y derecho de 0 */
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto o una fuente sans-serif genérica */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilos para el título principal */
+h1 {
+    margin-top: 40px; /* Margen superior de 40px para separar del borde superior */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para la cabecera */
+header {
+    text-align: center;
+    padding: 20px; /* Relleno de 20px */
+    border-bottom: 2px #eee; /* Borde inferior de 2px y color #eee */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    width: 100%; /* Ancho del 100% del contenedor padre */
+}
+
+/* Estilos para enlaces */
+h1, a {
+    margin: 10px 0; /* Margen superior e inferior de 10px y margen izquierdo y derecho de 0 */
+}
+
+a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: blue; /* Color azul para el enlace */
+}
+
+a:hover {
+    color: red; /* Color rojo cuando se pasa el ratón sobre el enlace */
+}
+
+/* Estilos para campos de entrada de tipo email y password */
+input[type="email"], input[type="password"] {
+    outline: none; /* Quita el contorno al enfocar */
+    padding: 20px; /* Relleno de 20px */
+    display: block; /* Hace que los elementos sean bloque para respetar el ancho */
+    width: 300px; /* Ancho de 300px */
+    border-radius: 3px; /* Bordes redondeados de 3px */
+    border: 1px solid #eee; /* Borde de 1px sólido con color #eee */
+    margin: 20px auto; /* Margen de 20px en la parte superior e inferior, y auto en los lados para centrar */
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    padding: 10px; /* Relleno de 10px */
+    color: #fff; /* Color del texto blanco */
+    background: #0098cb; /* Fondo azul */
+    width: 320px; /* Ancho de 320px */
+    margin-top: 0; /* Margen superior de 0 */
+    border: 0; /* Borde de 0 (sin borde) */
+    border-radius: 3px; /* Bordes redondeados de 3px */
+    cursor: pointer; /* Cursor de tipo puntero */
+}
+
+/* Estilos para el botón de envío al pasar el ratón */
+input[type="submit"]:hover {
+    background-color: darkcyan; /* Cambia el fondo al pasar el ratón */
+}
+
+/* Estilos para enlaces dentro de la cabecera */
+header a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #333; /* Color del texto #333 */
+}
+
+/* Estilos para el contenedor */
+.container {
+    display: flex; /* Contenedor de estilo flexbox */
+}
+
+/* Estilos para columnas */
+.column {
+    flex: 1; /* Flexibilidad de 1 (cada columna tomará el mismo espacio) */
+    padding: 20px; /* Relleno de 20px */
+}
