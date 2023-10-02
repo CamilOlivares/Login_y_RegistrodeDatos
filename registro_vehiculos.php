@@ -7,7 +7,9 @@
 <body>
     <h1>Registro de Recepción de Vehículos</h1>
 
-    <div class="container">
+    <div class="container"> <!-- El elemento <div class="container"> es un contenedor que agrupa elementos relacionados. 
+     Se utiliza para organizar y estructurar visualmente los contenidos dentro de una sección de la página. Se uso para para divir 
+     en 2 columnas el registro y ordenar el contenido-->
         <form action="procesar_registro.php" method="post" class="column">
             <h2>Datos del Cliente</h2>
             <!-- Campo para el nombre del cliente -->
