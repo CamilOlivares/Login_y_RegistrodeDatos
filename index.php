@@ -1,7 +1,11 @@
 <?php
   session_start();
 
-  require "database.php";
+  $server = "localhost";
+  $username = "root"; 
+  $password = ""; 
+  $database = "tareasemana7_database"; 
+
 
   if (isset($_SESSION["user_id"])) { //Esta línea verifica si la variable de sesión "user_id" está definida. 
     //Las sesiones son utilizadas para almacenar información (en este caso, el ID del usuario) que puede ser accedida en 
