@@ -73,6 +73,8 @@ header a {
     color: #333; /* Color del texto #333 */
 }
 
+/* Los Siguientes 2 estilos son para crear 2 columnas en el Registro de Vehiculos */
+
 /* Estilos para el contenedor */
 .container {
     display: flex; /* Contenedor de estilo flexbox */
